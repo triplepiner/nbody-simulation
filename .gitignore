@@ -1,0 +1,24 @@
+# Build artifacts
+nbody
+*.o
+*.obj
+*.exe
+
+# Simulation output (regeneratable)
+simulation_output.csv
+orbit_animation.gif
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
